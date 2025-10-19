@@ -1,0 +1,44 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+#comparison {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    width: 150px; /* Fixed width */
+    text-align: center;
+    cursor: pointer;
+}
+
+#instructions {
+  font-size: 0.9em;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+
+#progressContainer {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto 20px;
+}
+
+#progressBar {
+  height: 20px;
+  background-color: #ccc;
+  width: 0%;
+  transition: width 0.3s ease;
+}
+
+#progressText {
+  margin-top: 5px;
+}
