@@ -7,34 +7,11 @@
 </head>
 <body>
     <h1>HSR Character Sorter</h1>
-    <p id="instructions">Use ← / A for left, → / D for right, R or Enter to restart, Backspace to undo</p>
-
-<div id="filterContainer">
-  <h2>Select Characters to Sort</h2>
-
-  <div id="filterControls">
-    <button type="button" id="checkAllBtn">Check All</button>
-    <button type="button" id="uncheckAllBtn">Uncheck All</button>
-
-    <!-- Optional: Filter dropdowns -->
-    <label>
-      Gender:
-      <select id="genderFilter">
-        <option value="">All</option>
-        <option value="male">Male</option>
-        <option value="female">Female</option>
-      </select>
-    </label>
-  </div>
-
-  <form id="filterForm"></form>
-  <button id="startSortBtn">Start Sorting</button>
-</div>
-
-    <div id="progressContainer" aria-label="Sorting progress">
-        <div id="progressBar"></div>
-        <div id="progressText"></div>
-    </div>
+        <p id="instructions">Use ← / A for left, → / D for right, R to restart, Backspace to undo</p>
+        <div id="progressContainer" aria-label="Sorting progress">
+            <div id="progressBar"></div>
+            <div id="progressText"></div>
+        </div>
 
     <div id="comparison" role="group" aria-label="Character comparison">
         <button id="leftBtn" aria-label="Choose left character"></button>
@@ -49,6 +26,6 @@
     <div id="results" aria-live="polite"></div>
     <button id="refreshBtn" style="display:none;">Start Over</button>
 
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
